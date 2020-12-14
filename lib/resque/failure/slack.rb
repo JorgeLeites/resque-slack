@@ -1,6 +1,7 @@
 require 'resque'
 require 'uri'
 require 'net/http'
+require 'notification'
 
 module Resque
   module Failure
